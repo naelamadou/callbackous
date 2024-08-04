@@ -56,6 +56,8 @@ curl --request POST \
     "payment_validation_date": 1565251499748
 }
 '
-
+## Postman CURL 2
+curl --request POST \
+  --url 'http://localhost/callback/payment_callbackv3.php?payment_mode=INTOUCH_SERVICE_CODE&paid_sum=22200.0&paid_amount=22200.0&payment_token=1565251468191&payment_status=200&command_number=20230C2W3-1736103-gzeL&payment_validation_date=1565251499748'
 
 Happy coding!
